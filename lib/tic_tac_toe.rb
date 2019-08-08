@@ -143,7 +143,6 @@ end
     def play
       while !over?
         turn
-      end
       if won?
         puts "congratulation you won "
       end
@@ -151,4 +150,5 @@ end
         puts " DRAAAW!!"
       end
     end
+  end
 end
