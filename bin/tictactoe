@@ -3,5 +3,5 @@ require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
 board = [" "," "," "," "," "," "," "," "," "]
-tic_tac_toe = TicTacToe.new
+tic_tac_toe = TicTacToe.new(board)
 tic_tac_toe.play
