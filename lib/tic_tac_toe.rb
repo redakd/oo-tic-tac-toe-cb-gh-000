@@ -28,7 +28,7 @@ class TicTacToe
   end
 
   def move(index, player = "X")
-    if !position_taken?(@board, index)
+    if !position_taken?(index)
         @board[index] = player
     else
       return false
